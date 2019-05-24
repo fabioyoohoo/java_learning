@@ -18,10 +18,10 @@
     # with open('twitter_auth.json') as f:
     #    keys = json.load(f)
 
-    consumer_key = "3KAOEpQrsfcxOuPboqi38FmFY0"
-    consumer_secret = "YqWkfAiJA2jo2oV6lrME9P4cofizwIkSPK6vHDpF7XMuCAY3qv"
-    access_token = "1125943090240479232-iHH9O5ISz6lKAu6lsjbYDzIpnJ9egR"
-    access_token_secret = "bGRWGIKwr105Thhpo8gUbj8I8hNn3DWITH5Kucz9KK061"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = "" 
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
